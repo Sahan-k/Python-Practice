@@ -5,6 +5,6 @@ for i in range(1,len(a)):
   if a[i] > largest:
      second=largest
      largest=a[i]
-  elif a[i]>second and a[i]!=largest:
+  elif a[i] < largest and a[i]> second:
     second=a[i]
 print(second)
